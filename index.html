@@ -11,6 +11,7 @@
   <meta property="og:image" content="assets/images/logo.png">
   <title>Simplicity</title>
   <link rel="icon" href="assets/images/logo.png" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <link rel="stylesheet" type="text/css" href="styles/main.min.css" />
 </head>
 
@@ -58,104 +59,85 @@
       </div>
     </nav>
   </header>
+
   <main class="page-home">
+
+
     <section class="hero">
-      <div class="content">
-        <h1>Simplicity</h1>
-        <h4>Coding made simpler</h4>
-        <a href="#" class="btn btn-white-outline">Learn More</a>
+      <div class="swiper-container swiper-hero">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide flex-column" style="background-image: url(assets/images/h1-slider-1-background-img.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;">
+            <h2>ONWARDS TO GLORY</h2>
+            <a href="#" target="_blank" class="btn-red">Buy Theme</a>
+          </div>
+
+          <div class="swiper-slide flex-column" style="background-image: url(assets/images/h1-slider-2-background-img.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;">
+            <h2>YOU SPEAK OF JUSTICE?</h2>
+            <a href="#" target="_blank" class="btn-red">Buy Theme</a>
+          </div>
+
+          <div class="swiper-slide flex-column" style="background-image: url(assets/images/h1-slider-3-background-img.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;">
+            <h2>REPEL THE INVADERS!</h2>
+            <a href="#" target="_blank" class="btn-red">Buy Theme</a>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
-    <section class="blog">
-      <div class="bg-image lazyload" style="background-image: url(./assets/images/bg-blog.jpg);"></div>
-      <div class="overlay"></div>
+
+    <section class="client">
       <div class="container">
-        <h2>Lorem Ipsum</h2>
-        <div class="article-items">
-          <article class="article-item">
-            <a href="#" class="article-link">
-              <div class="article-thumbnail lazyload" style="background-image: url(./assets/images/image-blog1.jpg);"></div>
-              <div class="overlay"></div>
-              <div class="article-content">
-                <h3 class="article-title">Lorem ipsum dolor sit amet</h3>
-                <p class="article-date">June 6, 2020</p>
-              </div>
-              <div class="article-button">
-                <span class="btn btn-white-outline">Read More</span>
-              </div>
-            </a>
-          </article>          
-          <article class="article-item">
-            <a href="#" class="article-link">
-              <div class="article-thumbnail lazyload" style="background-image: url(./assets/images/image-blog2.jpg);"></div>
-              <div class="overlay"></div>
-              <div class="article-content">
-                <h3 class="article-title">Consectetur adipiscing elit</h3>
-                <p class="article-date">May 5, 2020</p>
-              </div>
-              <div class="article-button">
-                <span class="btn btn-white-outline">Read More</span>
-              </div>
-            </a>
-          </article>          
-          <article class="article-item">
-            <a href="#" class="article-link">
-              <div class="article-thumbnail lazyload" style="background-image: url(./assets/images/image-blog3.jpg);"></div>
-              <div class="overlay"></div>
-              <div class="article-content">
-                <h3 class="article-title">Sed do eiusmod tempor incididunt</h3>
-                <p class="article-date">April 4, 2020</p>
-              </div>
-              <div class="article-button">
-                <span class="btn btn-white-outline">Read More</span>
-              </div>
-            </a>
-          </article>          
-          <article class="article-item">
-            <a href="#" class="article-link">
-              <div class="article-thumbnail lazyload" style="background-image: url(./assets/images/image-blog4.jpg);"></div>
-              <div class="overlay"></div>
-              <div class="article-content">
-                <h3 class="article-title">Ut labore et dolore magna aliqua</h3>
-                <p class="article-date">March 3, 2020</p>
-              </div>
-              <div class="article-button">
-                <span class="btn btn-white-outline">Read More</span>
-              </div>
-            </a>
-          </article>          
-          <article class="article-item">
-            <a href="#" class="article-link">
-              <div class="article-thumbnail lazyload" style="background-image: url(./assets/images/image-blog5.jpg);"></div>
-              <div class="overlay"></div>
-              <div class="article-content">
-                <h3 class="article-title">Ut enim ad minim veniam, quis nostrud exercitation</h3>
-                <p class="article-date">February 2, 2020</p>
-              </div>
-              <div class="article-button">
-                <span class="btn btn-white-outline">Read More</span>
-              </div>
-            </a>
-          </article>          
-          <article class="article-item">
-            <a href="#" class="article-link">
-              <div class="article-thumbnail lazyload" style="background-image: url(./assets/images/image-blog6.jpg);"></div>
-              <div class="overlay"></div>
-              <div class="article-content">
-                <h3 class="article-title">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h3>
-                <p class="article-date">January 1, 2020</p>
-              </div>
-              <div class="article-button">
-                <span class="btn btn-white-outline">Read More</span>
-              </div>
-            </a>
-          </article>
-        </div>
-        <div class="view-all">
-          <a href="#" class="btn btn-white">View All</a>
+        <div class="swiper-container swiper-client">
+          <div class="swiper-wrapper">
+  
+            <div class="swiper-slide d-flex justify-content-center">
+              <a href="#" target="_blank" class="client-image-wrapper">
+                <img src="assets/images/client-img-1.png" alt="" class="client-image">
+                <img src="assets/images/client-img-1.png" alt="" class="client-image-hover">
+              </a>
+            </div>
+
+            <div class="swiper-slide d-flex justify-content-center">
+              <a href="#" target="_blank" class="client-image-wrapper">
+                <img src="assets/images/client-img-2.png" alt="" class="client-image">
+                <img src="assets/images/client-img-2.png" alt="" class="client-image-hover">
+              </a>
+            </div>
+
+            <div class="swiper-slide d-flex justify-content-center">
+              <a href="#" target="_blank" class="client-image-wrapper">
+                <img src="assets/images/client-img-3.png" alt="" class="client-image">
+                <img src="assets/images/client-img-3.png" alt="" class="client-image-hover">
+              </a>
+            </div>
+
+            <div class="swiper-slide d-flex justify-content-center">
+              <a href="#" target="_blank" class="client-image-wrapper">
+                <img src="assets/images/client-img-4.png" alt="" class="client-image">
+                <img src="assets/images/client-img-4.png" alt="" class="client-image-hover">
+              </a>
+            </div>
+
+            <div class="swiper-slide d-flex justify-content-center">
+              <a href="#" target="_blank" class="client-image-wrapper">
+                <img src="assets/images/client-img-5.png" alt="" class="client-image">
+                <img src="assets/images/client-img-5.png" alt="" class="client-image-hover">
+              </a>
+            </div>
+
+            <div class="swiper-slide d-flex justify-content-center">
+              <a href="#" target="_blank" class="client-image-wrapper">
+                <img src="assets/images/client-img-6.png" alt="" class="client-image">
+                <img src="assets/images/client-img-6.png" alt="" class="client-image-hover">
+              </a>
+            </div>
+        
+          </div>
         </div>
       </div>
     </section>
+
     <section class="cta">
       <div class="bg-video">
         <video autoplay loop="" muted="">
@@ -232,6 +214,7 @@
   <script src="scripts/vendors/jquery.min.js" defer onload="" id="jquery_min_js"></script>
   <script src="scripts/vendors/popper.min.js" defer onload="" id="popper_min_js"></script>
   <script src="scripts/vendors/bootstrap.min.js" defer onload="" id="bootstrap_min_js"></script>
+  <script src="scripts/vendors/swiper.min.js" defer onload="" id="swiper_min_js"></script>
   <script src="scripts/vendors/lazyload.min.js"></script> <!-- move this to the <head> below the last <link> when integrating to WordPress -->
   <script src="scripts/script.js" defer onload="" id="scripts_js"></script>
 </body>

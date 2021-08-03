@@ -34,6 +34,52 @@
   }
 }
 
+.btn-red {
+  position: relative;
+  color: $white;
+  border-color: $red-torch;
+  background-color: $red-torch;
+  padding: 12px 20px;
+  margin-top: 20px;
+
+  &:hover{
+    color: $white;
+    text-decoration: none;
+    box-shadow: -1px 2px 5px 6px rgba(254,13,32,0.61);
+    -webkit-box-shadow: -1px 2px 5px 6px rgba(254,13,32,0.61);
+    -moz-box-shadow: -1px 2px 5px 6px rgba(254,13,32,0.61);
+  }
+
+  &::before{
+    content: '';
+    width: 5px;
+    border-left: 35px solid transparent;
+    border-top: 52px solid #ff0e1f;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    left: initial;
+  }
+
+  &::after{
+    content: '';
+    width: 5px;
+    border-right: 35px solid transparent;
+    border-top: 52px solid #ff0e1f;
+    position: absolute;
+    top: 0;
+    right: initial;
+    bottom: 0;
+    left: 100%;
+  }
+
+}
+
+
+
+
+
 .btn-white-outline {
   color: #fff;
   border-color: #fff;

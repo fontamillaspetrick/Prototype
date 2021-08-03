@@ -11,8 +11,14 @@ $font-helveticaneue-light: 'HelveticaNeue-Light';
 $font-helvetica-black: 'HelveticaNeue-Black';
 $font-helvetica-black-hollow: 'HelveticaNeue-Black-Hollow';
 
+
+$font-rubik-regular: 'Rubik-Regular';
+$font-rubik-light: 'Rubik-Light';
+$font-rubik-black: 'Rubik-Black';
+
 /// @type List
 $text-font-stack: $font-helveticaneue, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
 
 /// Code (monospace) font family
 /// @type List
@@ -43,3 +49,9 @@ $dark-grey: #444 !default;
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '../assets/' !default;
+
+
+// Custom Color
+$black: #000;
+$white: #fff;
+$red-torch: #FE0D20;

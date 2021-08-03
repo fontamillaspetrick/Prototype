@@ -9,3 +9,10 @@
 @include font-face($font-helveticaneue-light, $base-url + 'fonts/', 'helveticaneue-light', 'helveticaneue-light');
 @include font-face($font-helvetica-black, $base-url + 'fonts/', 'helvetica-black', 'helvetica-black');
 @include font-face($font-helvetica-black-hollow, $base-url + 'fonts/', 'helvetica-black-hollow', 'helvetica-black-hollow');
+
+@include font-face($font-rubik-light, $base-url + 'fonts/', 'rubik-light', 'rubik-light');
+@include font-face($font-rubik-regular, $base-url + 'fonts/', 'rubik-regular', 'rubik-regular');
+@include font-face($font-rubik-black, $base-url + 'fonts/', 'rubik-black', 'rubik-black');
+
+
+

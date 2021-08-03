@@ -14,5 +14,46 @@ var headerScrolled = () => {
   });
 }
 
+// Swiper JS
+
+var swipers = () => {
+  var swiperHero = new Swiper(".swiper-hero", {
+    spaceBetween: 30,
+    effect: "fade",
+    centeredSlides: true,
+    loop : true,
+    // autoplay: {
+    //   delay: 2500,
+    //   disableOnInteraction: false,
+    // },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  var swiperClient = new Swiper(".swiper-client", {
+    slidesPerView: 2,
+    loop : true,
+    spaceBetween: 5,
+    breakpoints: {
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 6,
+        spaceBetween: 10,
+      },
+    },
+  });
+
+}
+
 // initialize the functions
 headerScrolled();
+swipers();
