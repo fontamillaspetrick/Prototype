@@ -76,6 +76,43 @@
 
 }
 
+.btn-blog {
+  display: block;
+  position: relative;
+  color: $white;
+  padding: 3px 13px;
+  font-size: 13px;
+  line-height: 16px;
+  background: $red-torch;
+  text-transform: lowercase;
+  width: fit-content;
+
+  &:hover{
+    text-decoration: none;
+    color: $black;
+    background: $red-torch;
+    animation: 1.5s linear 0s infinite normal none running blinker;
+
+    @keyframes blinker {
+      50% {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -5px;
+    width: 0;
+    height: 0;
+    border-bottom: 23px solid rgb(255, 14, 31);
+    border-right: 5px solid transparent;
+  }
+}
+
+
 
 
 

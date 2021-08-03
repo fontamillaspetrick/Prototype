@@ -12,6 +12,7 @@
 
 @include font-face($font-rubik-light, $base-url + 'fonts/', 'rubik-light', 'rubik-light');
 @include font-face($font-rubik-regular, $base-url + 'fonts/', 'rubik-regular', 'rubik-regular');
+@include font-face($font-rubik-bold, $base-url + 'fonts/', 'rubik-bold', 'rubik-bold');
 @include font-face($font-rubik-black, $base-url + 'fonts/', 'rubik-black', 'rubik-black');
 
 
