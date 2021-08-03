@@ -33,7 +33,7 @@ var swipers = () => {
   });
 
   var swiperClient = new Swiper(".swiper-client", {
-    slidesPerView: 2,
+    slidesPerView: 1,
     loop : true,
     spaceBetween: 5,
     breakpoints: {
