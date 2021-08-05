@@ -132,6 +132,16 @@ input[type="text"] {
   background: linear-gradient(to right,#17161a, #242124 50% ,#17161a);
 }
 
+
+.section-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
 .text-align-center{
   text-align: center;
 }
@@ -140,3 +150,40 @@ input[type="text"] {
   display: block;
   margin: auto;
 }
+
+
+.nav-skew {
+  transform: skew( 20deg);
+  transform-origin: 0 100%;
+
+  .nav-link.active {
+    background-color: $red-torch;
+  }
+
+  .a-style {
+    border: none;
+    border-radius: unset;
+    color: $white;
+    font-size: 16px;
+    padding: 12px 25px;
+    transition: ease-in-out all .4s;
+
+    &:hover {
+      background-color: $red-torch;
+    }
+  }
+}
+
+
+.text-skew {
+  transform: skew( -20deg);
+  color: $white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.border-shadow {
+  background: $gray-cod;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+}
+  
