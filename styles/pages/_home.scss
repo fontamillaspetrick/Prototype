@@ -320,8 +320,8 @@
       left: 0;
       color: #fff;
       background-color: rgba(15,15,15,.8);
-      width: 330px;
-      padding: 25px 0 30px 30px;
+      width: 350px;
+      padding: 25px 0 30px 40px;
     }
 
     .heading {
@@ -347,6 +347,30 @@
         transition: all 0.3s ease 0s;
         transform: skewX(15deg);
       }
+    }
+
+    .content-wrapper.sub {
+      display: flex;
+      width: 290px;
+      padding: 20px 0 25px 40px;
+    }
+
+    .content-wrapper.sub.two {
+      display: flex;
+      width: 290px;
+      padding: 20px 0 25px 30px;
+    }
+
+    .heading.sub {
+      width: 150px;
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .fa-play {
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
     }
 
   }

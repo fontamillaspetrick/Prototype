@@ -151,6 +151,27 @@ input[type="text"] {
   margin: auto;
 }
 
+.header-navskew-left {
+  transform: skewX(15deg);
+}
+
+.header-navskew-right {
+  transform: skewX(-15deg);
+}
+
+.header-textskew-left {
+  transform: skew( -15deg);
+  color: $silver-chalice;
+  font-size: 12px;
+  font-family: $font-rubik-light;
+}
+
+.header-textskew-right {
+  transform: skew( 15deg);
+  color: $silver-chalice;
+  font-size: 12px;
+  font-family: $font-rubik-light;
+}
 
 .nav-skew {
   transform: skew( 20deg);
